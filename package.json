@@ -1,0 +1,29 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "A node.js application that generates a professional README using inquirer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwedwick/readme-generator.git"
+  },
+  "keywords": [
+    "generator",
+    "readme",
+    "node.js",
+    "javascript",
+    "inquirer"
+  ],
+  "author": "kwedwick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwedwick/readme-generator/issues"
+  },
+  "homepage": "https://github.com/kwedwick/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
