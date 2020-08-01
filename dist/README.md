@@ -2,8 +2,8 @@
 
 ## Description
 
-A fully customizable README.md node.js generator. Simply use “node index” in the Integrated Terminal and follow the on screen responses. Based on user input, sections will either be added or omitted. If you need more license or badge choices, you’ll need to add that into the “index.js” file.
-  
+A fully customizable README.md node.js generator. Simply use “node index” in the Integrated Terminal and follow the on screen responses. Based on user input, sections will either be added or omitted. If you need more license or badge choices, you’ll need to add that into the “index.js” file. 
+    
 
 ## Table of Contents 
 * [Installation](#Installation) 
@@ -45,3 +45,5 @@ No tests were utilized for this project.
 ## Questions
 The author of this project is Keegan Wedwick. You can reach them via [email](mailto:kwedwick@gmail.com).
 To see more projects from this author, visit their [GitHub](https://github.com/kwedwick).
+    
+   

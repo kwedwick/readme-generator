@@ -17,14 +17,14 @@ const generateTable = readmeData => {
     const tableList = readmeData.tableOfContents
 
     tableList.forEach(i => {
-        item = "* [" + i +"](#" + i + ")";
+        item = "* [" + i + "](#" + i + ")";
         items.push(item)
         console.log(i)
     })
 
     let stringPass = "## Table of Contents \n"
-    items.forEach(item=>{
-        stringPass+= item + " " + "\n"
+    items.forEach(item => {
+        stringPass += item + " " + "\n"
     })
     return `${stringPass}
     `
