@@ -17,7 +17,7 @@ const generateTable = readmeData => {
     const tableList = readmeData.tableOfContents
 
     tableList.forEach(i => {
-        item = "* [" + i + "](#" + i + ")";
+        let item = "* [" + i + "](#" + i + ")";
         items.push(item)
         console.log(i)
     })
@@ -49,6 +49,16 @@ const generateUsage = readmeData => {
     return `## Usage
 
 ${readmeData.Usage}
+    `
+}
+
+const generateCredits = readmeData => {
+    if (!readmeData.confirmCredits) {
+        return "";
+    }
+    return `## Credits
+
+${readmeData.Contribution}
     `
 }
 
@@ -115,6 +125,8 @@ ${generateTable(readmeData)}
 ${generateInstallation(readmeData)}
 
 ${generateUsage(readmeData)}
+
+${generateCredits(readmeData)}
 
 ${generateBadge(readmeData)}
 

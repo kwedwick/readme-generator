@@ -1,49 +1,32 @@
-# README Generator
+# React Portfolio
 
 ## Description
 
-A fully customizable README.md node.js generator. Simply use “node index” in the Integrated Terminal and follow the on screen responses. Based on user input, sections will either be added or omitted. If you need more license or badge choices, you’ll need to add that into the “index.js” file. 
+A simple portfolio using React with no backend. Custom made CSS styling to create project cards. At the moment, About Me and Resume sections need to be reworked to include a photo and informaiton - currently using LOREM to populate those pages. Using Hashrouter to allow pages to reload on refresh. Feel free to contribute to help display the resume on the "Resume tab"!
     
 
 ## Table of Contents 
 * [Installation](#Installation) 
 * [Usage](#Usage) 
 * [License](#License) 
-* [Contribution](#Contribution) 
-* [Test](#Test) 
 * [Questions](#Questions) 
 
-    
 
 ## Installation
 
-To install this project, you’ll need the current version of Node.js and the npm Inquirer package. The Inquirer package is necessary to allow the terminal question prompts to generate user input and create the file.
-    
+You'll need to install React following their guidelines. The following technologies are used and will need to be imported: gh-pages-deploy, react-dom, react-external-link, react-pdf (currently not working), react-router-dom, and react strap (currently not utilized but maybe later on). 
+
 
 ## Usage
+Run "npm i" to download the packages, you'll be able to add components and route them accordingly. the App.css is currently broken down separately into components rather than all media queiries at the bottom. Will need to adjust or change how the .css file is organized later on. Once you have adjusted and imported your information, you run "npm run deploy" and it'll create the build and push it to the github repo you have designated. 
 
-To use the project: open the Integrated terminal, type “node index” and follow the questions that appear. Once they are all answered, please check the “dist” folder for the generated README.md file.
-    
 
-![GitHub license](https://img.shields.io/badge/license-mit-blue.svg)
-
+![GitHub license](https://img.shields.io/badge/license-isc-blue.svg)
 ## License
     
-This project falls under the mit license. Please visit [mit](https://choosealicense.com/licenses/mit) to learn more.
-    
+This project falls under the isc license. Please visit [isc](https://choosealicense.com/licenses/isc) to learn more.
 
-## Contribution
-
-This project follows the Contributor Covenant.
-    
-
-## Test
-
-No tests were utilized for this project.
-    
 
 ## Questions
-The author of this project is Keegan Wedwick. You can reach them via [email](mailto:kwedwick@gmail.com).
+The author of this project is Keegan. You can reach them via [email](mailto:kwedwick@gmail.com).
 To see more projects from this author, visit their [GitHub](https://github.com/kwedwick).
-    
-   
